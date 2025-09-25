@@ -1,0 +1,64 @@
+# Build ve obj klasörleri
+bin/
+obj/
+out/
+
+# Visual Studio dosyaları
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains IDE
+.idea/
+*.sln.iml
+
+# Paketler
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET Core / Web uygulamaları
+wwwroot/lib/
+node_modules/
+bower_components/
+
+# Dotnet CLI
+*.dotnet_tools.json
+
+# Debug ve publish
+*.log
+*.vsix
+*.publishsettings
+publish/
+
+# Rider caches
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac / Linux dosyaları
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Kullanıcıya özel ayarlar
+*.user
+*.env
+*.local
+
+# Test dosyaları / coverage
+TestResults/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+
+# Paket yöneticileri
+.vscode/
+.vscode/*
